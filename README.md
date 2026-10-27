@@ -144,7 +144,7 @@ Friedman χ² = 92.1, *p* = 1.4E-11; equal average ranks share the mean rank.
 | HHO | 7.92 | 2.08E-06 | 12/0/0 | 7.58 | 3.91E-05 | 12/0/0 |
 | CEO | 2.79 | – | – | 3.04 | – | – |
 
-Friedman χ² = 62.6, *p* = 4.65E-11 at D = 10; Friedman χ² = 58.9, *p* = 2.48E-10 at D = 20.
+Friedman χ² = 62.6, *p* = 4.65E-11 (≈ 4.7E-11) at D = 10; Friedman χ² = 58.9, *p* = 2.48E-10 (≈ 2.5E-10) at D = 20.
 
 ### CEO and 16 published methods on RC15 to RC21
 | Algorithm | Avg. rank | Rank | W/T/L |
