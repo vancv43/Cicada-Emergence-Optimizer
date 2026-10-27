@@ -1,0 +1,68 @@
+
+=== CEC2022 D10 (official code): runs per algorithm {'CEO-v1': 360, 'CEO-v4': 360, 'DE': 360, 'GWO': 360, 'HHO': 360, 'IPOP-CMA-ES': 360, 'L-SHADE': 360, 'PSO': 360, 'jSO': 360, 'v4-noEmergence': 360, 'v4-noGate': 360, 'v4-noMacro': 360, 'v4-sharedMem': 360}
+  CEO-v4 vs each, rank-sum + Holm over 12 functions (W/T/L):
+    CEO-v1           10/2/0  wins[F2 F3 F4 F5 F6 F7 F8 F10 F11 F12] losses[]
+    DE               3/8/1  wins[F4 F10 F12] losses[F8]
+    GWO              12/0/0  wins[F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12] losses[]
+    HHO              12/0/0  wins[F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12] losses[]
+    IPOP-CMA-ES      5/6/1  wins[F7 F8 F10 F11 F12] losses[F4]
+    L-SHADE          4/8/0  wins[F4 F7 F8 F10] losses[]
+    PSO              7/5/0  wins[F4 F6 F7 F8 F9 F10 F12] losses[]
+    jSO              2/9/1  wins[F7 F12] losses[F6]
+    v4-noEmergence   4/8/0  wins[F4 F7 F8 F10] losses[]
+    v4-noGate        0/12/0  wins[] losses[]
+    v4-noMacro       2/10/0  wins[F7 F10] losses[]
+    v4-sharedMem     1/11/0  wins[F7] losses[]
+  Friedman over 9 algorithms: chi2=75.52 p=3.89e-13
+    CEO-v4           2.79  Holm p vs v4 = -
+    jSO              2.88  Holm p vs v4 = 1.0
+    L-SHADE          3.04  Holm p vs v4 = 1.0
+    DE               3.38  Holm p vs v4 = 1.0
+    IPOP-CMA-ES      4.00  Holm p vs v4 = 1.0
+    PSO              5.17  Holm p vs v4 = 0.16824012937380795
+    GWO              7.50  Holm p vs v4 = 0.00015236923936152107
+    CEO-v1           7.58  Holm p vs v4 = 0.00012745966714615897
+    HHO              8.67  Holm p vs v4 = 1.1857426141957497e-06
+
+=== CEC2022 D20 (official code): runs per algorithm {'CEO-v1': 360, 'CEO-v4': 360, 'DE': 360, 'GWO': 360, 'HHO': 360, 'IPOP-CMA-ES': 360, 'L-SHADE': 360, 'PSO': 360, 'jSO': 360}
+  CEO-v4 vs each, rank-sum + Holm over 12 functions (W/T/L):
+    CEO-v1           12/0/0  wins[F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12] losses[]
+    DE               4/8/0  wins[F4 F6 F10 F11] losses[]
+    GWO              12/0/0  wins[F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12] losses[]
+    HHO              12/0/0  wins[F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12] losses[]
+    IPOP-CMA-ES      5/5/2  wins[F7 F8 F10 F11 F12] losses[F2 F4]
+    L-SHADE          1/10/1  wins[F10] losses[F6]
+    PSO              11/1/0  wins[F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12] losses[]
+    jSO              1/10/1  wins[F10] losses[F2]
+  Friedman over 9 algorithms: chi2=73.30 p=1.08e-12
+    jSO              2.58  Holm p vs v4 = 1.0
+    CEO-v4           3.04  Holm p vs v4 = -
+    L-SHADE          3.17  Holm p vs v4 = 1.0
+    IPOP-CMA-ES      3.46  Holm p vs v4 = 1.0
+    DE               3.79  Holm p vs v4 = 1.0
+    PSO              5.21  Holm p vs v4 = 0.2631615128287032
+    CEO-v1           7.58  Holm p vs v4 = 0.000291686699381329
+    GWO              7.83  Holm p vs v4 = 0.00012745966714615897
+    HHO              8.33  Holm p vs v4 = 1.769711868969427e-05
+
+=== CEC2020-RW RC15-RC21 (R1 harness): {'ABC': 210, 'ACOR': 210, 'BIPOP-CMA-ES': 210, 'CEO-v1': 210, 'CEO-v4': 210, 'DE': 210, 'GA': 210, 'GWO': 210, 'HBA': 210, 'HHO': 210, 'IMODE': 210, 'INFO': 210, 'L-SHADE': 210, 'LSHADE-cnEpSin': 210, 'PSO': 210, 'SCSO': 210, 'Sawtooth-GA': 210, 'WOA': 210}
+  CEO-v4 vs 17 others over 7 problems, signed-rank + Holm over opponents: W/T/L 71/40/8 of 119
+    ABC              5/2/0
+    ACOR             4/3/0
+    BIPOP-CMA-ES     0/5/2
+    CEO-v1           6/1/0
+    DE               1/4/2
+    GA               7/0/0
+    GWO              5/2/0
+    HBA              6/1/0
+    HHO              6/1/0
+    IMODE            0/6/1
+    INFO             7/0/0
+    L-SHADE          1/5/1
+    LSHADE-cnEpSin   0/5/2
+    PSO              4/3/0
+    SCSO             6/1/0
+    Sawtooth-GA      7/0/0
+    WOA              6/1/0
+  average rank: LSHADE-cnEpSin 3.29, L-SHADE 3.71, IMODE 3.86, BIPOP-CMA-ES 4.29, CEO-v4 4.43, DE 6.57, ABC 8.29, ACOR 9.43, PSO 10.00, HBA 10.14, SCSO 11.00, GWO 11.57, INFO 13.00, HHO 13.00, Sawtooth-GA 13.43, GA 14.14, CEO-v1 14.14, WOA 16.71
+  CEO-v4 feasible runs per problem: {'RC15': 30, 'RC16': 30, 'RC17': 30, 'RC18': 30, 'RC19': 30, 'RC20': 30, 'RC21': 30}

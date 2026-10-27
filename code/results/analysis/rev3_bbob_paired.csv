@@ -1,0 +1,9 @@
+dim,a,b,paired_win,paired_tie,paired_loss,ranksum_win,ranksum_tie,ranksum_loss
+20,CEO-T,L-SHADE-T,0,19,5,0,19,5
+20,CEO-T,jSO-T,4,19,1,6,17,1
+20,CEO,L-SHADE,1,21,2,1,21,2
+20,CEO,jSO,3,21,0,3,21,0
+40,CEO-T,L-SHADE-T,2,13,9,3,12,9
+40,CEO-T,jSO-T,8,14,2,8,15,1
+40,CEO,L-SHADE,3,12,9,3,12,9
+40,CEO,jSO,5,13,6,5,13,6

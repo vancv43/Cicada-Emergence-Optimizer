@@ -1,0 +1,35 @@
+
+=== CEC2022_D10: 12 functions x 30 runs, Friedman chi2=2.83 p=0.418
+  avg rank: CEO 2.12, MPA 2.42, CS 2.50, ABC 2.96
+  CEO vs MPA: Friedman-Holm p=0.954  W/T/L 4/5/3  lost on F2 F6 F12
+  CEO vs CS : Friedman-Holm p=0.954  W/T/L 7/2/3  lost on F2 F9 F12
+  CEO vs ABC: Friedman-Holm p=0.342  W/T/L 9/1/2  lost on F2 F10
+
+=== CEC2022_D20: 12 functions x 30 runs, Friedman chi2=7.04 p=0.0706
+  avg rank: CEO 1.67, ABC 2.62, MPA 2.83, CS 2.88
+  CEO vs MPA: Friedman-Holm p=0.0656  W/T/L 11/1/0
+  CEO vs CS : Friedman-Holm p=0.0656  W/T/L 8/3/1  lost on F2
+  CEO vs ABC: Friedman-Holm p=0.069  W/T/L 8/1/3  lost on F2 F10 F11
+
+=== CEC2017_D10: 29 functions x 30 runs, Friedman chi2=17.86 p=0.00047
+  avg rank: MPA 1.95, CEO 2.07, ABC 2.88, CS 3.10
+  CEO vs MPA: Friedman-Holm p=0.722  W/T/L 13/13/3  lost on F12 F24 F25
+  CEO vs CS : Friedman-Holm p=0.00684  W/T/L 20/7/2  lost on F24 F25
+  CEO vs ABC: Friedman-Holm p=0.0337  W/T/L 22/4/3  lost on F24 F25 F26
+
+=== CEC2017_D30: 29 functions x 30 runs, Friedman chi2=45.12 p=8.71e-10
+  avg rank: CEO 1.29, MPA 2.28, ABC 3.05, CS 3.38
+  CEO vs MPA: Friedman-Holm p=0.00375  W/T/L 26/2/1  lost on F26
+  CEO vs CS : Friedman-Holm p=2.27e-09  W/T/L 27/2/0
+  CEO vs ABC: Friedman-Holm p=4.27e-07  W/T/L 24/2/3  lost on F4 F25 F26
+
+=== PRIMARY: Wilcoxon signed-rank on mean error over 82 cases, Holm over 3
+  CEO vs MPA: better 55, worse 19, tie 8; Wilcoxon p=0.000381, Holm p=0.000381; sign test p=3.38e-05
+  CEO vs CS : better 62, worse 16, tie 4; Wilcoxon p=6.63e-06, Holm p=1.33e-05; sign test p=1.51e-07
+  CEO vs ABC: better 60, worse 18, tie 4; Wilcoxon p=4.13e-06, Holm p=1.24e-05; sign test p=1.97e-06
+
+Per-suite signed-rank (secondary, descriptive):
+  CEC2017_D10: vs MPA better 13/worse 12; vs CS better 20/worse 8; vs ABC better 20/worse 8
+  CEC2017_D30: vs MPA better 26/worse 3; vs CS better 27/worse 2; vs ABC better 25/worse 3
+  CEC2022_D10: vs MPA better 5/worse 3; vs CS better 6/worse 4; vs ABC better 8/worse 3
+  CEC2022_D20: vs MPA better 11/worse 1; vs CS better 9/worse 2; vs ABC better 7/worse 4

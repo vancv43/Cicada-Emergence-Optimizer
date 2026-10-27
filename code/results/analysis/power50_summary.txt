@@ -1,0 +1,11 @@
+
+=== CEC2017_D50: 29 functions x 30 runs, Friedman chi2=47.90 p=2.24e-10
+  avg rank: CEO 1.10, MPA 2.69, ABC 2.97, CS 3.24
+  CEO vs MPA: Friedman-Holm p=2.89e-06  W/T/L 25/4/0
+  CEO vs CS : Friedman-Holm p=8.59e-10  W/T/L 27/2/0
+  CEO vs ABC: Friedman-Holm p=7.93e-08  W/T/L 25/3/1  lost on F6
+
+=== SUPPLEMENTARY: Wilcoxon signed-rank on mean error over 29 D50 functions, Holm over 3
+  CEO vs MPA: better 29, worse 0, tie 0; Wilcoxon p=3.73e-09, Holm p=1.12e-08; sign test p=3.73e-09
+  CEO vs CS : better 28, worse 1, tie 0; Wilcoxon p=1.86e-08, Holm p=3.73e-08; sign test p=1.12e-07
+  CEO vs ABC: better 27, worse 2, tie 0; Wilcoxon p=3.73e-08, Holm p=3.73e-08; sign test p=1.62e-06

@@ -1,0 +1,45 @@
+configs 25, functions 29, rows 21750; every cell 30 runs
+
+=== N0f: Friedman chi2=4.14 p=0.387
+  N0f=8          mean rank 3.24  vs frozen: better on 0, worse on 0
+  N0f=11         mean rank 2.95  vs frozen: better on 0, worse on 0 (frozen)
+  N0f=15         mean rank 2.59  vs frozen: better on 1, worse on 1
+  N0f=20         mean rank 3.00  vs frozen: better on 2, worse on 4
+  N0f=25         mean rank 3.22  vs frozen: better on 3, worse on 7
+
+=== n_b: Friedman chi2=5.30 p=0.258
+  n_b=2          mean rank 3.34  vs frozen: better on 1, worse on 3
+  n_b=3          mean rank 3.07  vs frozen: better on 1, worse on 2
+  n_b=5          mean rank 2.52  vs frozen: better on 0, worse on 0 (frozen)
+  n_b=6          mean rank 3.03  vs frozen: better on 0, worse on 0
+  n_b=8          mean rank 3.03  vs frozen: better on 0, worse on 2
+
+=== E: Friedman chi2=17.77 p=0.00137
+  E=10           mean rank 3.59  vs frozen: better on 0, worse on 8
+  E=40           mean rank 2.95  vs frozen: better on 0, worse on 1
+  E=78.43        mean rank 2.33  vs frozen: better on 0, worse on 0 (frozen)
+  E=120          mean rank 2.62  vs frozen: better on 1, worse on 1
+  E=200          mean rank 3.52  vs frozen: better on 1, worse on 5
+
+=== theta: Friedman chi2=3.54 p=0.472
+  theta=1        mean rank 3.26  vs frozen: better on 0, worse on 2
+  theta=2        mean rank 2.91  vs frozen: better on 0, worse on 0
+  theta=3        mean rank 3.26  vs frozen: better on 0, worse on 0
+  theta=4        mean rank 2.81  vs frozen: better on 0, worse on 0 (frozen)
+  theta=5        mean rank 2.76  vs frozen: better on 0, worse on 0
+
+=== c_micro: Friedman chi2=19.31 p=0.000683
+  c_micro=0.2    mean rank 3.07  vs frozen: better on 0, worse on 0
+  c_micro=0.273  mean rank 2.76  vs frozen: better on 0, worse on 0 (frozen)
+  c_micro=0.5    mean rank 2.38  vs frozen: better on 0, worse on 0
+  c_micro=1      mean rank 2.90  vs frozen: better on 0, worse on 3
+  c_micro=3      mean rank 3.90  vs frozen: better on 0, worse on 6
+
+=== p: Friedman chi2=5.62 p=0.23
+  p=0.05         mean rank 3.28  vs frozen: better on 0, worse on 1
+  p=0.1          mean rank 3.40  vs frozen: better on 0, worse on 0
+  p=0.15         mean rank 2.81  vs frozen: better on 0, worse on 0
+  p=0.198        mean rank 2.79  vs frozen: better on 0, worse on 0 (frozen)
+  p=0.25         mean rank 2.72  vs frozen: better on 0, worse on 0
+
+Reproducibility: frozen vs power-study CEO CEC2017 D10, 870 matched runs, identical 870, max |diff| 0

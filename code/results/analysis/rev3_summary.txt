@@ -1,0 +1,39 @@
+=== (a) M3: primary test with and without the CEC2022 D10 discovery block
+  82 cases                       vs MPA: B/W/T 55/19/8  signed-rank Holm p=0.000381  sign Holm p=3.38e-05
+  82 cases                       vs CS: B/W/T 62/16/4  signed-rank Holm p=1.33e-05  sign Holm p=4.54e-07
+  82 cases                       vs ABC: B/W/T 60/18/4  signed-rank Holm p=1.24e-05  sign Holm p=3.95e-06
+  70 cases, CEC2022 D10 removed  vs MPA: B/W/T 50/16/4  signed-rank Holm p=0.000582  sign Holm p=3.33e-05
+  70 cases, CEC2022 D10 removed  vs CS: B/W/T 56/12/2  signed-rank Holm p=2.32e-05  sign Holm p=1.86e-07
+  70 cases, CEC2022 D10 removed  vs ABC: B/W/T 52/15/3  signed-rank Holm p=2.32e-05  sign Holm p=1.29e-05
+  function families, one vote each (mean sign of the case-level differences over the dimensions):
+    vs MPA: 41 families, better/worse/even 26/4/11  sign Holm p=0.000119
+    vs CS: 41 families, better/worse/even 27/4/10  sign Holm p=0.000102
+    vs ABC: 41 families, better/worse/even 26/5/10  sign Holm p=0.000192
+
+=== (b) M6: realised generations and gates per brood, frozen CEO, CEC2022 D10
+  N0=110, Nmin=5, periods [24, 33, 44, 59, 75]; generations estimated by Eq. 2: 3478; by the integral of the linear reduction: 5888; nominal E = 78.4
+  realised generations over F1-F12, run 1: median 5940, range 5915-5958
+  realised gates per brood, median over functions: b1 248, b2 180, b3 135, b4 101, b5 79
+
+=== (c) M8: BBOB, instance-matched paired tests per function (Wilcoxon signed-rank over the 30 runs, Holm over 24)
+  D20 CEO-T  vs L-SHADE-T: paired W/T/L 0/19/5   rank-sum W/T/L 0/19/5
+  D20 CEO-T  vs jSO-T    : paired W/T/L 4/19/1   rank-sum W/T/L 6/17/1
+  D20 CEO    vs L-SHADE  : paired W/T/L 1/21/2   rank-sum W/T/L 1/21/2
+  D20 CEO    vs jSO      : paired W/T/L 3/21/0   rank-sum W/T/L 3/21/0
+  D40 CEO-T  vs L-SHADE-T: paired W/T/L 2/13/9   rank-sum W/T/L 3/12/9
+  D40 CEO-T  vs jSO-T    : paired W/T/L 8/14/2   rank-sum W/T/L 8/15/1
+  D40 CEO    vs L-SHADE  : paired W/T/L 3/12/9   rank-sum W/T/L 3/12/9
+  D40 CEO    vs jSO      : paired W/T/L 5/13/6   rank-sum W/T/L 5/13/6
+  ECDF with 51 fixed targets from 1e2 to 1e-8 (equal weight per function and run):
+    D20: frozen CEO reaches the most targets at 11 of 16 recording points, from 0.1% to 54.9% of the budget
+      final shares: CEO 0.719, CEO-T 0.724, L-SHADE 0.728, L-SHADE-T 0.732, jSO 0.714, jSO-T 0.705
+    D40: frozen CEO reaches the most targets at 8 of 16 recording points, from 0.0% to 22.9% of the budget
+      final shares: CEO 0.538, CEO-T 0.563, L-SHADE 0.590, L-SHADE-T 0.572, jSO 0.598, jSO-T 0.528
+
+=== (d) M9: RC15-RC21, feasibility, unpenalised objective and residual violation
+  30 methods x 7 problems x 30 runs; CEO feasible runs per problem: RC15 30.0, RC16 30.0, RC17 30.0, RC18 30.0, RC19 30.0, RC20 30.0, RC21 30.0
+  cells with fewer than 30 feasible runs: ACOR RC16 29.0; ALO RC16 26.0; AO RC16 3.0; BA RC16 24.0; BA RC18 29.0; BFO RC16 5.0; BIPOP-CMA-ES RC16 29.0; DA RC16 29.0; DE RC16 13.0; FA RC18 29.0; GA RC16 28.0; GOA RC15 10.0; GOA RC16 13.0; GWO RC16 23.0; HBA RC16 29.0; HHO RC16 27.0; INFO RC16 26.0; KH RC16 22.0; MFO RC16 15.0; PSO RC16 26.0; SMO RC16 25.0; Sawtooth-GA RC16 27.0; SquirrelSA RC16 25.0; WOA RC16 23.0
+
+=== (e) M10: timing variation, five repetitions of T0 and T1 on the machine of the complexity study
+  D10: T0 0.310 s (sd 0.044), T1 4.286 s (sd 0.367); one sd of T1 is 1.18 in units of T0; smallest ratios: MFO -0.75, MPA -0.77
+  D20: T0 0.270 s (sd 0.003), T1 5.048 s (sd 0.050); one sd of T1 is 0.18 in units of T0; smallest ratios: 

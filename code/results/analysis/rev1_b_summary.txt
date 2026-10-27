@@ -1,0 +1,27 @@
+pooled 82-case signed-rank p values recomputed and equal to the locked analysis
+sign test over 82 cases: MPA p=3.38e-05, CS p=1.51e-07, ABC p=1.97e-06
+
+Per-block view (signed-rank and sign test within the block, uncorrected, descriptive):
+  CEC2022 D10  vs MPA n=12 better/worse/tie 5/3/4 signed-rank p=0.844 sign p=0.727 median A12=0.50 large-effect share=0.33
+  CEC2022 D10  vs CS  n=12 better/worse/tie 6/4/2 signed-rank p=0.846 sign p=0.754 median A12=0.76 large-effect share=0.58
+  CEC2022 D10  vs ABC n=12 better/worse/tie 8/3/1 signed-rank p=0.147 sign p=0.227 median A12=0.94 large-effect share=0.75
+  CEC2022 D20  vs MPA n=12 better/worse/tie 11/1/0 signed-rank p=0.0161 sign p=0.00635 median A12=0.90 large-effect share=0.92
+  CEC2022 D20  vs CS  n=12 better/worse/tie 9/2/1 signed-rank p=0.175 sign p=0.0654 median A12=0.93 large-effect share=0.67
+  CEC2022 D20  vs ABC n=12 better/worse/tie 7/4/1 signed-rank p=0.413 sign p=0.549 median A12=0.98 large-effect share=0.67
+  CEC2017 D10  vs MPA n=29 better/worse/tie 13/12/4 signed-rank p=0.527 sign p=1 median A12=0.59 large-effect share=0.45
+  CEC2017 D10  vs CS  n=29 better/worse/tie 20/8/1 signed-rank p=0.466 sign p=0.0357 median A12=1.00 large-effect share=0.69
+  CEC2017 D10  vs ABC n=29 better/worse/tie 20/8/1 signed-rank p=0.122 sign p=0.0357 median A12=1.00 large-effect share=0.76
+  CEC2017 D30  vs MPA n=29 better/worse/tie 26/3/0 signed-rank p=1.03e-05 sign p=1.52e-05 median A12=0.97 large-effect share=0.90
+  CEC2017 D30  vs CS  n=29 better/worse/tie 27/2/0 signed-rank p=9.31e-08 sign p=1.62e-06 median A12=1.00 large-effect share=0.90
+  CEC2017 D30  vs ABC n=29 better/worse/tie 25/3/1 signed-rank p=3.08e-05 sign p=2.74e-05 median A12=1.00 large-effect share=0.83
+  CEC2017 D50  vs MPA n=29 better/worse/tie 29/0/0 signed-rank p=3.73e-09 sign p=3.73e-09 median A12=1.00 large-effect share=0.86
+  CEC2017 D50  vs CS  n=29 better/worse/tie 28/1/0 signed-rank p=1.86e-08 sign p=1.12e-07 median A12=1.00 large-effect share=0.93
+  CEC2017 D50  vs ABC n=29 better/worse/tie 27/2/0 signed-rank p=3.73e-08 sign p=1.62e-06 median A12=1.00 large-effect share=0.86
+
+Friedman RW, 17 methods x 7 problems: chi2=75.84 p=9.28e-10
+Friedman SOTA D10, 8 methods: chi2=62.56 p=4.65e-11
+Friedman SOTA D20, 8 methods: chi2=58.92 p=2.48e-10
+CEC2022 D10 CEO vs jSO: median A12 0.50, functions with A12>=0.71: 2, <=0.29: 1 of 12
+CEC2022 D10 CEO vs L-SHADE: median A12 0.50, functions with A12>=0.71: 4, <=0.29: 0 of 12
+CEC2022 D20 CEO vs jSO: median A12 0.50, functions with A12>=0.71: 1, <=0.29: 1 of 12
+CEC2022 D20 CEO vs L-SHADE: median A12 0.50, functions with A12>=0.71: 1, <=0.29: 1 of 12

@@ -1,0 +1,29 @@
+=== PRIMARY: CEO-T vs L-SHADE-T and jSO-T, BBOB, 48 cases, signed-rank on mean error, Holm over 2
+  vs L-SHADE-T: better/worse/tie 5/24/19  signed-rank Holm p=0.000884  sign p=0.000546  median A12=0.50
+  vs jSO-T    : better/worse/tie 19/13/16  signed-rank Holm p=0.246  sign p=0.377  median A12=0.50
+  D20: L-SHADE-T B/W/T 0/11/13 Holm p=0.00669 sign p=0.000977 A12=0.50; jSO-T B/W/T 8/5/11 Holm p=0.382 sign p=0.581 A12=0.50
+  D40: L-SHADE-T B/W/T 5/13/6 Holm p=0.0622 sign p=0.0963 A12=0.49; jSO-T B/W/T 11/8/5 Holm p=0.52 sign p=0.648 A12=0.52
+
+=== SECONDARY (descriptive): rank-sum W/T/L with Holm over the 24 functions, first method's side
+  D20 CEO-T     vs L-SHADE-T: W/T/L 0/19/5  B/W/T 0/11/13  signed-rank p=0.00335  A12=0.50
+  D20 CEO-T     vs jSO-T    : W/T/L 6/17/1  B/W/T 8/5/11  signed-rank p=0.382  A12=0.50
+  D20 CEO-T     vs CEO      : W/T/L 1/21/2  B/W/T 6/6/12  signed-rank p=0.583  A12=0.50
+  D20 L-SHADE-T vs L-SHADE  : W/T/L 0/24/0  B/W/T 7/4/13  signed-rank p=0.328  A12=0.50
+  D20 jSO-T     vs jSO      : W/T/L 0/20/4  B/W/T 1/12/11  signed-rank p=0.00713  A12=0.50
+  D20 CEO-T     vs L-SHADE  : W/T/L 0/20/4  B/W/T 0/11/13  signed-rank p=0.00335  A12=0.50
+  D20 CEO-T     vs jSO      : W/T/L 2/21/1  B/W/T 7/6/11  signed-rank p=0.972  A12=0.50
+  D20 CEO       vs L-SHADE  : W/T/L 1/21/2  B/W/T 3/9/12  signed-rank p=0.136  A12=0.50
+  D20 CEO       vs jSO      : W/T/L 3/21/0  B/W/T 8/6/10  signed-rank p=0.245  A12=0.50
+  D40 CEO-T     vs L-SHADE-T: W/T/L 3/12/9  B/W/T 5/13/6  signed-rank p=0.0311  A12=0.49
+  D40 CEO-T     vs jSO-T    : W/T/L 8/15/1  B/W/T 11/8/5  signed-rank p=0.52  A12=0.52
+  D40 CEO-T     vs CEO      : W/T/L 6/12/6  B/W/T 10/8/6  signed-rank p=0.845  A12=0.50
+  D40 L-SHADE-T vs L-SHADE  : W/T/L 1/21/2  B/W/T 8/9/7  signed-rank p=0.906  A12=0.50
+  D40 jSO-T     vs jSO      : W/T/L 0/14/10  B/W/T 1/17/6  signed-rank p=0.00159  A12=0.32
+  D40 CEO-T     vs L-SHADE  : W/T/L 0/15/9  B/W/T 4/14/6  signed-rank p=0.00378  A12=0.47
+  D40 CEO-T     vs jSO      : W/T/L 5/13/6  B/W/T 5/13/6  signed-rank p=0.17  A12=0.48
+  D40 CEO       vs L-SHADE  : W/T/L 3/12/9  B/W/T 5/12/7  signed-rank p=0.227  A12=0.50
+  D40 CEO       vs jSO      : W/T/L 5/13/6  B/W/T 7/10/7  signed-rank p=0.981  A12=0.50
+
+=== Friedman over the six methods
+  D20: chi2=22.58 p=0.000406; avg rank L-SHADE-T 2.71, L-SHADE 2.88, jSO 3.62, CEO 3.67, CEO-T 3.88, jSO-T 4.25
+  D40: chi2=13.47 p=0.0193; avg rank jSO 2.92, L-SHADE 3.02, L-SHADE-T 3.10, CEO 3.85, CEO-T 3.94, jSO-T 4.17

@@ -1,0 +1,54 @@
+rev1 runs on disk (870 = complete per dimension and algorithm):
+  D10 L-SHADE          870
+  D10 jSO              870
+  D30 CEO-N0fixed      870
+  D30 L-SHADE          870
+  D30 jSO              870
+  D30 v4-K1            870
+  D30 v4-equalPeriods  870
+  D30 v4-gaussMoult    870
+  D30 v4-noEmergence   870
+  D30 v4-noGate        870
+  D30 v4-noMacro       870
+  D30 v4-restart       870
+  D30 v4-sharedMem     870
+  D50 CEO-N0fixed      870
+  D50 L-SHADE          870
+  D50 jSO              870
+
+=== (a) CEO vs L-SHADE and jSO on CEC2017
+  D10: Friedman chi2=3.47 p=0.177; avg rank CEO 2.07, L-SHADE 2.17, jSO 1.76
+    vs L-SHADE: post-hoc Holm p=0.694  W/T/L 2/25/2  B/W/T 11/11/7  signed-rank p=0.465  sign p=1  A12=0.50  lost on F12 F30
+    vs jSO    : post-hoc Holm p=0.475  W/T/L 3/21/5  B/W/T 10/13/6  signed-rank p=0.153  sign p=0.678  A12=0.49  lost on F11 F12 F19 F23 F30
+  D30: Friedman chi2=13.18 p=0.00137; avg rank CEO 2.43, L-SHADE 2.03, jSO 1.53
+    vs L-SHADE: post-hoc Holm p=0.131  W/T/L 0/21/8  B/W/T 7/19/3  signed-rank p=0.00144  sign p=0.029  A12=0.39  lost on F14 F15 F18 F19 F21 F24 F25 F26
+    vs jSO    : post-hoc Holm p=0.00128  W/T/L 0/17/12  B/W/T 6/19/4  signed-rank p=0.00157  sign p=0.0146  A12=0.42  lost on F11 F12 F14 F15 F18 F19 F23 F24 F25 F26 F27 F30
+  D50: Friedman chi2=20.54 p=3.46e-05; avg rank CEO 2.66, L-SHADE 1.74, jSO 1.60
+    vs L-SHADE: post-hoc Holm p=0.000502  W/T/L 0/18/11  B/W/T 3/24/2  signed-rank p=0.000413  sign p=4.92e-05  A12=0.36  lost on F5 F11 F12 F14 F15 F18 F19 F21 F23 F24 F26
+    vs jSO    : post-hoc Holm p=0.000124  W/T/L 2/14/13  B/W/T 5/22/2  signed-rank p=0.000413  sign p=0.00151  A12=0.34  lost on F11 F12 F13 F14 F15 F18 F19 F23 F24 F25 F26 F27 F30
+  pooled 58 cases (D10+D30), Holm over the two opponents:
+    vs L-SHADE: B/W/T 18/30/10  signed-rank Holm p=0.00164  sign p=0.111
+    vs jSO    : B/W/T 16/32/10  signed-rank Holm p=0.000805  sign p=0.0293
+  D10 signed-rank Holm over two: L-SHADE p=0.465, jSO p=0.306
+  D30 signed-rank Holm over two: L-SHADE p=0.00287, jSO p=0.00287
+  D50 signed-rank Holm over two: L-SHADE p=0.000826, jSO p=0.000826
+
+=== (b) emergence ablation and replacement controls, CEC2017 D30, each variant against CEO
+  v4-noEmergence   CEO W/T/L 4/24/1  B/W/T 17/8/4  signed-rank Holm p=0.413  CEO better on F8 F16 F20 F29; worse on F19
+  v4-noGate        CEO W/T/L 10/19/0  B/W/T 17/9/3  signed-rank Holm p=1  CEO better on F5 F6 F8 F14 F21 F23 F24 F25 F26 F29; worse on -
+  v4-noMacro       CEO W/T/L 0/29/0  B/W/T 15/10/4  signed-rank Holm p=1  CEO better on -; worse on -
+  v4-sharedMem     CEO W/T/L 3/22/4  B/W/T 14/11/4  signed-rank Holm p=1  CEO better on F21 F23 F24; worse on F16 F17 F18 F20
+  v4-K1            CEO W/T/L 12/17/0  B/W/T 22/4/3  signed-rank Holm p=0.00587  CEO better on F5 F7 F8 F13 F14 F15 F18 F19 F21 F23 F24 F26; worse on -
+  v4-equalPeriods  CEO W/T/L 0/29/0  B/W/T 9/16/4  signed-rank Holm p=0.392  CEO better on -; worse on -
+  v4-gaussMoult    CEO W/T/L 0/29/0  B/W/T 13/12/4  signed-rank Holm p=1  CEO better on -; worse on -
+  v4-restart       CEO W/T/L 19/10/0  B/W/T 25/2/2  signed-rank Holm p=0.000136  CEO better on F4 F5 F7 F8 F10 F11 F13 F14 F15 F16 F17 F18 F19 F20 F21 F23 F24 F26 F29; worse on -
+
+=== (c) CEO with a fixed initial population of 110
+  D30 N0fixed vs MPA: W/T/L 18/8/3  B/W/T 21/8/0  signed-rank Holm p=0.00299  sign p=0.0241
+  D30 N0fixed vs CS: W/T/L 25/4/0  B/W/T 26/3/0  signed-rank Holm p=2.31e-06  sign p=1.52e-05
+  D30 N0fixed vs ABC: W/T/L 24/1/4  B/W/T 25/4/0  signed-rank Holm p=9.4e-06  sign p=0.000104
+  D30 CEO (N0=11D) vs N0fixed: W/T/L 19/10/0  B/W/T 26/1/2  signed-rank p=8.8e-06
+  D50 N0fixed vs MPA: W/T/L 19/9/1  B/W/T 25/4/0  signed-rank Holm p=0.000669  sign p=0.000104
+  D50 N0fixed vs CS: W/T/L 21/5/3  B/W/T 23/6/0  signed-rank Holm p=0.000278  sign p=0.00232
+  D50 N0fixed vs ABC: W/T/L 23/5/1  B/W/T 24/5/0  signed-rank Holm p=4.79e-05  sign p=0.000546
+  D50 CEO (N0=11D) vs N0fixed: W/T/L 25/4/0  B/W/T 27/1/1  signed-rank p=9.98e-06
