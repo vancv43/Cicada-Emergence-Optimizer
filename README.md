@@ -282,6 +282,7 @@ bash code/run_analysis.sh      # every table of the paper from the saved runs, a
 | `analyze_rev2.py` | BBOB study after equal tuning |
 | `analyze_rev3.py` | Gates per brood, paired BBOB tests, RC15 to RC21 feasibility, timing variation |
 | `analyze_rw_audited.py` | CEO and the 16 published methods on RC15 to RC21, audited swarm versions |
+| `analyze_table_cells.py` | Remaining table cells: A12 and 70-case sign tests, CEO against the tuned BBOB methods |
 | `experiments/` | Harness and published methods of the RC15 to RC21 comparison, `r1/r1_lib.py` |
 
 ## Repository layout

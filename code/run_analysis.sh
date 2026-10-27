@@ -27,6 +27,8 @@ echo '[analysis] select_rev2.py'
 $PY select_rev2.py
 echo '[analysis] analyze_rev2.py'
 $PY analyze_rev2.py
+echo '[analysis] analyze_table_cells.py'
+$PY analyze_table_cells.py
 echo '[analysis] analyze_rev3.py'
 $PY analyze_rev3.py
 echo '[analysis] done, outputs in results/analysis/'
