@@ -29,7 +29,7 @@ Few nature-inspired optimizers test whether their metaphor matters. We propose a
 ## Contributions
 1. **A new optimizer.** CEO is L-SHADE with its population split into broods. Each brood keeps its own success memory and checks its progress at gates of its own clock. A stalled brood is resampled around its best member, micro-emergence, and after repeated failures redrawn over the whole domain, macro-emergence.
 2. **Audited baselines.** All 19 swarm algorithms were written from their original papers and checked against the published equations and the authors' code; `code/SWARM_AUDIT.md` lists every check and the library defects found.
-3. **Pre-registered tests.** The main tests were fixed in dated protocols before the runs; the protocol files with their lists of deviations are in `code/PROTOCOL_*.md` and `experiments/r1/PROTOCOL_R1.md`.
+3. **Pre-registered tests.** The main tests were fixed in dated protocols before the runs, as described in the paper.
 4. **Ablation with replacement controls** that separates the brood restarts from a single brood and a generic stagnation restart.
 5. **Every loss reported.** CEO trails L-SHADE and jSO from D = 30 on CEC2017 and the tuned L-SHADE on BBOB; these results are reported with the wins.
 
@@ -286,7 +286,7 @@ bash code/run_analysis.sh      # every table of the paper from the saved runs, a
 
 ## Repository layout
 ```
-code/                 algorithms, benchmark adapters, run and analysis scripts, protocols, SWARM_AUDIT.md
+code/                 algorithms, benchmark adapters, run and analysis scripts, SWARM_AUDIT.md
   cec2022_data/       official CEC2022 Python code and input data
   cec2017_official/   official CEC2017 C code and input data
   third_party/evolopy/ WOA of EvoloPy, used verbatim (Apache-2.0)
