@@ -132,7 +132,7 @@ Friedman χ² = 92.1, *p* = 1.4E-11 on RC15 to RC21; χ² = 122.4, *p* = 4.0E-17
 | HHO | 7.92 | 2.08E-06 | 12/0/0 | 7.58 | 3.91E-05 | 12/0/0 |
 | CEO | 2.79 | – | – | 3.04 | – | – |
 
-Friedman χ² = 62.6, *p* = 4.65E-11 at D = 10 (printed as 4.7E-11 in the paper); χ² = 58.9, *p* = 2.5E-10 at D = 20.
+Friedman χ² = 62.6, *p* = 4.6E-11 at D = 10; χ² = 58.9, *p* = 2.5E-10 at D = 20.
 
 ### Table 7. CEO and 17 published methods on RC15 to RC33
 | Algorithm | RC15–21 Avg. rank | W/T/L | RC22–33 Avg. rank | W/T/L | RC15–33 Avg. rank | Rank | W/T/L | Feas. rank |
