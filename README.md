@@ -370,5 +370,6 @@ All benchmark suites are public: CEC2017 and CEC2022 through the official code o
 The article has been submitted to *Expert Systems with Applications*. Until it is published, please cite this repository; see `CITATION.cff`.
 
 ## Contact
-Minh Tuan Nguyen, Faculty of Information Technology, Posts and Telecommunications Institute of Technology, minhtuan@ptit.edu.vn<br>
-Phayung Meesad, Department of Information Technology Management, King Mongkut's University of Technology North Bangkok, phayung.m@itd.kmutnb.ac.th
+<sup>a</sup> Faculty of Information Technology, Posts and Telecommunications Institute of Technology, 11 Nguyen Dinh Chieu Street, Sai Gon Ward, Ho Chi Minh City 700000, Vietnam<br>
+<sup>b</sup> Faculty of Information Technology and Digital Innovation, King Mongkut's University of Technology North Bangkok, 1518 Pracharat 1 Road, Wongsawang, Bang Sue, Bangkok 10800, Thailand<br>
+<sup>&#42;</sup> Corresponding author: Phayung Meesad, phayung.m@itd.kmutnb.ac.th
