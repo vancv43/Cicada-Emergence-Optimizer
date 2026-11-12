@@ -372,4 +372,4 @@ The article has been submitted to *Expert Systems with Applications*. Until it i
 ## Contact
 <sup>a</sup> Faculty of Information Technology, Posts and Telecommunications Institute of Technology, 11 Nguyen Dinh Chieu Street, Sai Gon Ward, Ho Chi Minh City 700000, Vietnam<br>
 <sup>b</sup> Faculty of Information Technology and Digital Innovation, King Mongkut's University of Technology North Bangkok, 1518 Pracharat 1 Road, Wongsawang, Bang Sue, Bangkok 10800, Thailand<br>
-<sup>&#42;</sup> Corresponding author: Phayung Meesad, phayung.m@itd.kmutnb.ac.th
+<sup>&#42;</sup> Corresponding authors: minhtuan@ptit.edu.vn, phayung.m@itd.kmutnb.ac.th
