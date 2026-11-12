@@ -1,0 +1,141 @@
+swarm set 20 methods, evo set 17 methods, 19 problems x 30 seeds, complete
+
+=== swarm_RC15-21: 20 algorithms x 7 functions, Friedman chi2=92.1 p=1.4e-11; CEO position 2/20
+   1. MPA          2.36  Holm p=1  CEO W/T/L 3/2/2 lost on RC17 RC18
+   2. CEO          2.64
+   3. CS           2.93  Holm p=1  CEO W/T/L 3/3/1 lost on RC17
+   4. ACO          5.29  Holm p=1  CEO W/T/L 6/0/1 lost on RC17
+   5. SMO          6.36  Holm p=0.961  CEO W/T/L 5/2/0 
+   6. ABC          8.29  Holm p=0.404  CEO W/T/L 6/1/0 
+   7. ALO          8.43  Holm p=0.404  CEO W/T/L 7/0/0 
+   8. FA           8.71  Holm p=0.384  CEO W/T/L 7/0/0 
+   9. GWO          9.14  Holm p=0.319  CEO W/T/L 6/1/0 
+  10. PSO          9.71  Holm p=0.228  CEO W/T/L 7/0/0 
+  11. SquirrelSA  11.57  Holm p=0.0475  CEO W/T/L 6/1/0 
+  12. DA          11.86  Holm p=0.0393  CEO W/T/L 6/1/0 
+  13. MFO         13.43  Holm p=0.00777  CEO W/T/L 5/2/0 
+  14. WOA         14.14  Holm p=0.00387  CEO W/T/L 7/0/0 
+  15. KH          14.14  Holm p=0.00387  CEO W/T/L 7/0/0 
+  16. HHO         14.71  Holm p=0.00202  CEO W/T/L 6/1/0 
+  17. BA          14.86  Holm p=0.0018  CEO W/T/L 7/0/0 
+  18. BFO         15.00  Holm p=0.00158  CEO W/T/L 7/0/0 
+  19. AO          17.57  Holm p=4.23e-05  CEO W/T/L 7/0/0 
+  20. GOA         18.86  Holm p=5.58e-06  CEO W/T/L 7/0/0 
+  total W/T/L for CEO: 115/14/4
+  secondary feasibility-rule ranking swarm RC15-21: CEO 2.21, MPA 2.71, CS 3.21, ACO 5.43, SMO 5.43, GWO 7.71, SquirrelSA 8.86, ALO 9.29 ... CEO position 1/20
+
+=== tab:rw RC15-21: 17 methods x 7 problems, Friedman chi2=69.7 p=1.1e-08
+   1. LSHADE-cnEpSin    3.43  CEO W/T/L 0/5/2
+   2. L-SHADE           3.86  CEO W/T/L 1/5/1
+   3. IMODE             4.14  CEO W/T/L 0/6/1
+   4. BIPOP-CMA-ES      4.43  CEO W/T/L 0/5/2
+   5. CEO               4.86  CEO W/T/L --
+   6. ACOR              6.36  CEO W/T/L 3/3/1
+   7. DE                6.93  CEO W/T/L 1/4/2
+   8. ABC               9.21  CEO W/T/L 5/2/0
+   9. HBA               9.79  CEO W/T/L 6/1/0
+  10. GWO              10.71  CEO W/T/L 5/1/1
+  11. SCSO             10.86  CEO W/T/L 6/1/0
+  12. INFO             12.29  CEO W/T/L 7/0/0
+  13. PSO              12.29  CEO W/T/L 6/1/0
+  14. Sawtooth-GA      13.00  CEO W/T/L 7/0/0
+  15. GA               13.29  CEO W/T/L 7/0/0
+  16. WOA              13.36  CEO W/T/L 6/1/0
+  17. HHO              14.21  CEO W/T/L 6/1/0
+  total CEO W/T/L: 66/36/10
+  secondary feasibility-rule ranking evo RC15-21: LSHADE-cnEpSin 2.43, IMODE 3.00, L-SHADE 3.14, CEO 3.86, DE 4.86, BIPOP-CMA-ES 5.71, ACOR 7.86, HBA 9.43 ... CEO position 4/17
+
+=== swarm_RC22-33: 20 algorithms x 12 functions, Friedman chi2=122.4 p=4e-17; CEO position 1/20
+   1. CEO          1.92
+   2. MPA          3.42  Holm p=0.535  CEO W/T/L 8/3/1 lost on RC25
+   3. CS           4.62  Holm p=0.524  CEO W/T/L 10/1/1 lost on RC25
+   4. SMO          6.62  Holm p=0.154  CEO W/T/L 11/1/0 
+   5. ACO          8.08  Holm p=0.0427  CEO W/T/L 10/1/1 lost on RC25
+   6. GWO          8.67  Holm p=0.026  CEO W/T/L 11/0/1 lost on RC25
+   7. ABC          9.00  Holm p=0.0202  CEO W/T/L 12/0/0 
+   8. PSO          9.42  Holm p=0.0133  CEO W/T/L 11/1/0 
+   9. ALO          9.54  Holm p=0.0127  CEO W/T/L 12/0/0 
+  10. FA          10.25  Holm p=0.00504  CEO W/T/L 12/0/0 
+  11. SquirrelSA  11.04  Holm p=0.00158  CEO W/T/L 11/1/0 
+  12. MFO         11.54  Holm p=0.000742  CEO W/T/L 10/2/0 
+  13. WOA         11.62  Holm p=0.000699  CEO W/T/L 11/1/0 
+  14. KH          11.75  Holm p=0.000608  CEO W/T/L 12/0/0 
+  15. DA          12.54  Holm p=0.000152  CEO W/T/L 11/1/0 
+  16. BA          13.83  Holm p=1.21e-05  CEO W/T/L 12/0/0 
+  17. HHO         15.17  Holm p=6.58e-07  CEO W/T/L 11/1/0 
+  18. AO          16.54  Holm p=2.38e-08  CEO W/T/L 12/0/0 
+  19. GOA         16.75  Holm p=1.47e-08  CEO W/T/L 12/0/0 
+  20. BFO         17.67  Holm p=1.33e-09  CEO W/T/L 12/0/0 
+  total W/T/L for CEO: 211/13/4
+  secondary feasibility-rule ranking swarm RC22-33: CEO 2.00, MPA 4.42, CS 6.29, SMO 6.54, ACO 7.42, PSO 8.00, ALO 8.62, GWO 9.50 ... CEO position 1/20
+
+=== tab:rw RC22-33: 17 methods x 12 problems, Friedman chi2=105.9 p=2.7e-15
+   1. LSHADE-cnEpSin    3.71  CEO W/T/L 1/9/2
+   2. CEO               4.00  CEO W/T/L --
+   3. L-SHADE           4.12  CEO W/T/L 3/8/1
+   4. BIPOP-CMA-ES      4.29  CEO W/T/L 3/7/2
+   5. IMODE             4.58  CEO W/T/L 4/7/1
+   6. GA                8.83  CEO W/T/L 8/4/0
+   7. ACOR              8.96  CEO W/T/L 8/3/1
+   8. GWO               9.83  CEO W/T/L 10/2/0
+   9. DE               10.33  CEO W/T/L 7/5/0
+  10. Sawtooth-GA      10.42  CEO W/T/L 10/2/0
+  11. ABC              10.58  CEO W/T/L 10/2/0
+  12. INFO             11.17  CEO W/T/L 10/2/0
+  13. PSO              11.33  CEO W/T/L 11/1/0
+  14. HBA              11.50  CEO W/T/L 9/3/0
+  15. SCSO             11.58  CEO W/T/L 11/1/0
+  16. WOA              12.92  CEO W/T/L 9/3/0
+  17. HHO              14.83  CEO W/T/L 10/2/0
+  total CEO W/T/L: 124/61/7
+  secondary feasibility-rule ranking evo RC22-33: CEO 2.58, LSHADE-cnEpSin 2.79, L-SHADE 4.46, IMODE 4.62, DE 7.17, BIPOP-CMA-ES 7.42, ACOR 8.67, GA 9.50 ... CEO position 1/17
+
+=== swarm_RC15-33: 20 algorithms x 19 functions, Friedman chi2=208.5 p=6.8e-34; CEO position 1/20
+   1. CEO          2.18
+   2. MPA          3.03  Holm p=0.688  CEO W/T/L 11/5/3 lost on RC17 RC18 RC25
+   3. CS           4.00  Holm p=0.688  CEO W/T/L 13/4/2 lost on RC17 RC25
+   4. SMO          6.53  Holm p=0.0711  CEO W/T/L 16/3/0 
+   5. ACO          7.05  Holm p=0.0448  CEO W/T/L 16/1/2 lost on RC17 RC25
+   6. ABC          8.74  Holm p=0.0032  CEO W/T/L 18/1/0 
+   7. GWO          8.84  Holm p=0.00314  CEO W/T/L 17/2/0 
+   8. ALO          9.13  Holm p=0.00207  CEO W/T/L 19/0/0 
+   9. PSO          9.53  Holm p=0.00105  CEO W/T/L 18/1/0 
+  10. FA           9.68  Holm p=0.00084  CEO W/T/L 19/0/0 
+  11. SquirrelSA  11.24  Holm p=2.4e-05  CEO W/T/L 17/2/0 
+  12. MFO         12.24  Holm p=1.79e-06  CEO W/T/L 15/4/0 
+  13. DA          12.29  Holm p=1.68e-06  CEO W/T/L 17/2/0 
+  14. WOA         12.55  Holm p=8.58e-07  CEO W/T/L 18/1/0 
+  15. KH          12.63  Holm p=7.34e-07  CEO W/T/L 19/0/0 
+  16. BA          14.21  Holm p=5.57e-09  CEO W/T/L 19/0/0 
+  17. HHO         15.00  Holm p=3.91e-10  CEO W/T/L 17/2/0 
+  18. BFO         16.68  Holm p=7.16e-13  CEO W/T/L 19/0/0 
+  19. AO          16.92  Holm p=2.92e-13  CEO W/T/L 19/0/0 
+  20. GOA         17.53  Holm p=2.5e-14  CEO W/T/L 19/0/0 
+  total W/T/L for CEO: 326/28/7
+  secondary feasibility-rule ranking swarm RC15-33: CEO 2.08, MPA 3.79, CS 5.16, SMO 6.13, ACO 6.68, GWO 8.84, ALO 8.87, PSO 8.89 ... CEO position 1/20
+
+=== tab:rw RC15-33: 17 methods x 19 problems, Friedman chi2=165.4 p=7e-27
+   1. LSHADE-cnEpSin    3.61  CEO W/T/L 1/14/4
+   2. L-SHADE           4.03  CEO W/T/L 4/13/2
+   3. CEO               4.32  CEO W/T/L --
+   4. BIPOP-CMA-ES      4.34  CEO W/T/L 3/12/4
+   5. IMODE             4.42  CEO W/T/L 4/13/2
+   6. ACOR              8.00  CEO W/T/L 11/6/2
+   7. DE                9.08  CEO W/T/L 8/9/2
+   8. ABC              10.08  CEO W/T/L 15/4/0
+   9. GWO              10.16  CEO W/T/L 15/3/1
+  10. GA               10.47  CEO W/T/L 15/4/0
+  11. HBA              10.87  CEO W/T/L 15/4/0
+  12. SCSO             11.32  CEO W/T/L 17/2/0
+  13. Sawtooth-GA      11.37  CEO W/T/L 17/2/0
+  14. INFO             11.58  CEO W/T/L 17/2/0
+  15. PSO              11.68  CEO W/T/L 17/2/0
+  16. WOA              13.08  CEO W/T/L 15/4/0
+  17. HHO              14.61  CEO W/T/L 16/3/0
+  total CEO W/T/L: 190/97/17
+  secondary feasibility-rule ranking evo RC15-33: LSHADE-cnEpSin 2.66, CEO 3.05, L-SHADE 3.97, IMODE 4.03, DE 6.32, BIPOP-CMA-ES 6.79, ACOR 8.37, HBA 10.37 ... CEO position 2/17
+
+feasible runs of 30, CEO: RC15:30 RC16:30 RC17:30 RC18:30 RC19:30 RC20:30 RC21:30 RC22:30 RC23:30 RC24:30 RC25:30 RC26:27 RC27:30 RC28:30 RC29:0 RC30:30 RC31:30 RC32:30 RC33:30
+problems where no method is ever feasible: []
+problems where CEO is not always feasible: ['RC26', 'RC29']
+penalised vs feasibility notes: RC25: best by penalty BIPOP-CMA-ES differs from best feasible mean; RC29: best by penalty BIPOP-CMA-ES differs from best feasible mean

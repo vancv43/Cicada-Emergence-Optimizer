@@ -6,4 +6,5 @@ niapy==2.5.2
 cma==4.4.4
 mealpy==3.0.3
 enoppy==0.1.1
+opfunu==1.0.4
 coco-experiment==2.8.3

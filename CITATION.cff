@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the article."
-title: "Cicada Emergence Optimizer: An Ablation Study of Brood Restarts in Differential Evolution"
+title: "Cicada Emergence Optimizer: A Hybrid Success-History Differential Evolution with Staggered Brood Restarts"
 authors:
   - family-names: Chau
     given-names: Van Van

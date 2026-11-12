@@ -1,0 +1,87 @@
+evo set 18 methods (CEO + 17), 19 problems x 30 seeds, complete; audited runs 4560 rows, max FE used 200000
+
+=== tab:rw RC15-21: 18 methods x 7 problems, Friedman chi2=78.4 p=7.2e-10
+   1. L-SHADE           4.29  CEO W/T/L 0/5/2
+   2. jSO               4.36  CEO W/T/L 0/5/2
+   3. DE                5.00  CEO W/T/L 0/5/2
+   4. LSHADE-cnEpSin    5.29  CEO W/T/L 0/7/0
+   5. BIPOP-CMA-ES      5.50  CEO W/T/L 0/5/2
+   6. IMODE             5.64  CEO W/T/L 1/5/1
+   7. CEO               6.00  CEO W/T/L --
+   8. ACOR              7.57  CEO W/T/L 3/3/1
+   9. INFO              8.14  CEO W/T/L 3/4/0
+  10. ABC              10.36  CEO W/T/L 5/2/0
+  11. SCSO             11.71  CEO W/T/L 7/0/0
+  12. HBA              12.00  CEO W/T/L 2/5/0
+  13. GWO              12.57  CEO W/T/L 5/1/1
+  14. PSO              13.71  CEO W/T/L 6/1/0
+  15. Sawtooth-GA      14.14  CEO W/T/L 7/0/0
+  16. GA               14.57  CEO W/T/L 7/0/0
+  17. WOA              14.71  CEO W/T/L 6/1/0
+  18. HHO              15.43  CEO W/T/L 6/1/0
+  total CEO W/T/L: 58/50/11
+  secondary feasibility-rule ranking evo RC15-21: DE 3.14, jSO 3.21, L-SHADE 3.29, LSHADE-cnEpSin 4.14, CEO 4.71, IMODE 4.79, BIPOP-CMA-ES 7.57, INFO 8.29 ... CEO position 5/18
+
+=== tab:rw RC22-33: 18 methods x 12 problems, Friedman chi2=120.4 p=1.3e-17
+   1. jSO               4.21  CEO W/T/L 0/9/3
+   2. L-SHADE           4.50  CEO W/T/L 0/9/3
+   3. DE                5.08  CEO W/T/L 1/10/1
+   4. LSHADE-cnEpSin    5.12  CEO W/T/L 1/8/3
+   5. CEO               5.29  CEO W/T/L --
+   6. BIPOP-CMA-ES      5.33  CEO W/T/L 3/7/2
+   7. IMODE             6.54  CEO W/T/L 6/5/1
+   8. ACOR             10.38  CEO W/T/L 8/3/1
+   9. INFO             10.42  CEO W/T/L 8/4/0
+  10. GA               10.75  CEO W/T/L 8/4/0
+  11. GWO              11.54  CEO W/T/L 10/2/0
+  12. HBA              11.83  CEO W/T/L 7/5/0
+  13. Sawtooth-GA      11.83  CEO W/T/L 10/2/0
+  14. ABC              12.08  CEO W/T/L 10/2/0
+  15. PSO              12.88  CEO W/T/L 11/1/0
+  16. SCSO             13.21  CEO W/T/L 10/2/0
+  17. WOA              14.12  CEO W/T/L 9/3/0
+  18. HHO              15.88  CEO W/T/L 10/2/0
+  total CEO W/T/L: 112/78/14
+  secondary feasibility-rule ranking evo RC22-33: CEO 3.38, LSHADE-cnEpSin 3.92, jSO 4.54, L-SHADE 4.54, DE 5.42, IMODE 6.62, BIPOP-CMA-ES 8.58, HBA 9.67 ... CEO position 1/18
+
+=== tab:rw RC15-33: 18 methods x 19 problems, Friedman chi2=191.7 p=1.3e-31
+   1. jSO               4.26  CEO W/T/L 0/14/5
+   2. L-SHADE           4.42  CEO W/T/L 0/14/5
+   3. DE                5.05  CEO W/T/L 1/15/3
+   4. LSHADE-cnEpSin    5.18  CEO W/T/L 1/15/3
+   5. BIPOP-CMA-ES      5.39  CEO W/T/L 3/12/4
+   6. CEO               5.55  CEO W/T/L --
+   7. IMODE             6.21  CEO W/T/L 7/10/2
+   8. ACOR              9.34  CEO W/T/L 11/6/2
+   9. INFO              9.58  CEO W/T/L 11/8/0
+  10. ABC              11.45  CEO W/T/L 15/4/0
+  11. HBA              11.89  CEO W/T/L 9/10/0
+  12. GWO              11.92  CEO W/T/L 15/3/1
+  13. GA               12.16  CEO W/T/L 15/4/0
+  14. SCSO             12.66  CEO W/T/L 17/2/0
+  15. Sawtooth-GA      12.68  CEO W/T/L 17/2/0
+  16. PSO              13.18  CEO W/T/L 17/2/0
+  17. WOA              14.34  CEO W/T/L 15/4/0
+  18. HHO              15.71  CEO W/T/L 16/3/0
+  total CEO W/T/L: 170/128/25
+  secondary feasibility-rule ranking evo RC15-33: CEO 3.87, LSHADE-cnEpSin 4.00, jSO 4.05, L-SHADE 4.08, DE 4.58, IMODE 5.95, BIPOP-CMA-ES 8.21, INFO 9.29 ... CEO position 1/18
+
+feasible runs of 30 per audited method:
+  L-SHADE         15:30 16:30 17:30 18:30 19:30 20:30 21:30 22:30 23:30 24:30 25:30 26:22 27:30 28:30 29:0 30:30 31:30 32:30 33:30
+  DE              15:30 16:28 17:30 18:30 19:30 20:30 21:30 22:30 23:30 24:30 25:30 26:25 27:30 28:30 29:0 30:30 31:30 32:30 33:30
+  LSHADE-cnEpSin  15:30 16:30 17:30 18:30 19:30 20:30 21:30 22:30 23:30 24:30 25:30 26:28 27:30 28:30 29:0 30:30 31:30 32:30 33:30
+  IMODE           15:30 16:30 17:30 18:30 19:30 20:30 21:30 22:30 23:30 24:30 25:30 26:24 27:30 28:30 29:0 30:30 31:30 32:30 33:30
+  jSO             15:30 16:30 17:30 18:30 19:30 20:30 21:30 22:30 23:30 24:30 25:30 26:27 27:30 28:30 29:0 30:30 31:30 32:30 33:30
+  INFO            15:30 16:29 17:30 18:30 19:30 20:30 21:30 22:30 23:30 24:30 25:30 26:5 27:28 28:30 29:0 30:30 31:30 32:30 33:30
+  HBA             15:30 16:23 17:30 18:30 19:30 20:30 21:30 22:30 23:30 24:30 25:28 26:6 27:30 28:30 29:0 30:30 31:30 32:30 33:30
+  SCSO            15:30 16:30 17:30 18:30 19:30 20:30 21:30 22:30 23:30 24:30 25:29 26:0 27:30 28:30 29:0 30:30 31:30 32:30 33:30
+penalised vs feasibility notes: RC25: best by penalty BIPOP-CMA-ES differs from best feasible mean; RC29: no method feasible
+
+=== superseded (mealpy / R1) vs audited, mean penalised objective per problem
+  L-SHADE         audited better on  6, worse on  2, equal on 11 of 19 problems
+  DE              audited better on 13, worse on  0, equal on  6 of 19 problems
+  LSHADE-cnEpSin  audited better on  2, worse on  5, equal on 12 of 19 problems
+  IMODE           audited better on  3, worse on  5, equal on 11 of 19 problems
+  INFO            audited better on 13, worse on  3, equal on  3 of 19 problems
+  HBA             audited better on 13, worse on  4, equal on  2 of 19 problems
+  SCSO            audited better on  9, worse on  8, equal on  2 of 19 problems

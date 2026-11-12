@@ -1,11 +1,16 @@
-# Van Van Chau(1,2), Minh Tuan Nguyen(1), and Phayung Meesad(2,*)
-# (1) Faculty of Information Technology, Posts and Telecommunications Institute of Technology,
-#     11 Nguyen Dinh Chieu Street, Sai Gon Ward, Ho Chi Minh City 700000, Vietnam,
-#     vancv@ptit.edu.vn, minhtuan@ptit.edu.vn
-# (2) Department of Information Technology Management, King Mongkut's University of Technology North Bangkok,
-#     1518 Pracharat 1 Road, Wongsawang, Bang Sue, Bangkok 10800, Thailand, phayung.m@itd.kmutnb.ac.th
-# (*) Corresponding author
-#
+# /*
+#  * Cicada Emergence Optimizer: A Hybrid Success-History Differential Evolution with Staggered Brood Restarts
+#  * Authors: Van Van Chau (1,2), Minh Tuan Nguyen (1,*), and Phayung Meesad (2,*)
+#  * (1) Faculty of Information Technology, Posts and Telecommunications Institute of Technology,
+#  *     11 Nguyen Dinh Chieu Street, Sai Gon Ward, Ho Chi Minh City 700000, Vietnam
+#  *     vancv@ptit.edu.vn, minhtuan@ptit.edu.vn
+#  * (2) Department of Information Technology Management, Faculty of Information Technology and Digital Innovation,
+#  *     King Mongkut's University of Technology North Bangkok (KMUTNB),
+#  *     1518 Pracharat 1 Rd, Wongsawang, Bangsue, Bangkok 10800, Thailand
+#  *     phayung.m@itd.kmutnb.ac.th
+#  * (*) Corresponding authors
+#  * Repository: https://github.com/vancv43/Cicada-Emergence-Optimizer (MIT License)
+#  */
 """Study 2 of the reviewer round, PROTOCOL_rev2.md: equal-effort tuning of CEO, L-SHADE and jSO on CEC2017 at D = 30,
 then a test on BBOB (cocoex) at D = 20 and 40. One invocation = one shard of one stage. Resumable; stops launching jobs
 after --hard-stop-h. Output: <outdir>/rev2-tune_s<shard>.csv or <outdir>/rev2-test_s<shard>.csv"""
